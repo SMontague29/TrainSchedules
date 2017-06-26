@@ -85,7 +85,7 @@ database.ref().on("child_added", function(snapshot) {
 
 function convertFirstTrainToMinutes(firstTrain) {
 
-  firstTrain = moment(firstTrain, "hh:mm");
+  firstTrain = moment(firstTrain, "HH:mm");
   firstTrainHours = firstTrain.hours();
   firstTrainMin = firstTrain.minutes();
 
