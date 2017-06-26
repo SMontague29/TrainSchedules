@@ -1,1 +1,18 @@
 /* CSS for Train Scheduler here */
+* {
+  box-sizing: border-box;
+}
+
+.jumbotron {
+	background-color: 	#000080;
+	color: 	#FFD700;
+}
+
+.panel-default>.panel-heading {
+	background-color: 	#000080;
+	color: 	#FFD700;
+}
+
+.btn {
+	background-color: #AAAAAA;
+}
